@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game_list xmlns="http://www.sixense.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sixense.com http://www.sixense.com/sixense_mce.xsd">
+  <game>
+    <version>1.0</version>
+    <requires_schema_version>1.2</requires_schema_version>
+    <exe_name></exe_name>
+    <game_type>fps</game_type>
+    <game_mode>mouselook</game_mode>
+    <full_name>The Witcher 3</full_name>
+    <mouse_pointer>
+      <controller>P1R</controller>
+      <mode>mouselook</mode>
+    </mouse_pointer>
+    <joystick_config>
+      <controller>P1L</controller>
+      <mode>blend</mode>
+      <auto_bind>wasd</auto_bind>
+    </joystick_config>
+    <joystick_config>
+      <controller>P1R</controller>
+      <mode>4_way</mode>
+    </joystick_config>
+    <binding>
+      <name>Menu</name>
+      <conditions>
+        <button>
+          <controller>P1L</controller>
+          <which>start</which>
+        </button>
+      </conditions>
+      <actions></actions>
+    </binding>
+  </game>
+</game_list>
